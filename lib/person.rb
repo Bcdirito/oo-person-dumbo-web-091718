@@ -13,6 +13,7 @@ class Person
   end
   
   def happiness=(n)
+    @happiness += n
     if n >= 10
       @happiness = 10
     elsif n <= 0
