@@ -14,4 +14,5 @@ class Person
   def happiness=(n)
     if n >= 10
       @happiness = 10
+    else
 end
