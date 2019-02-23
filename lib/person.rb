@@ -12,4 +12,5 @@ class Person
   end
   
   def happiness=(n)
+    if n >= 10
 end
