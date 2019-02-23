@@ -17,7 +17,7 @@ class Person
   end
   
   def hygiene=(n)
-    
+    checker(@hygiene, n)
   end
   
   def checker(att, num)
