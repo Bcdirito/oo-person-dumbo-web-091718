@@ -25,4 +25,6 @@ class Person
   def hygiene=(n)
     
   end
+  
+  def checker(att, number)
 end
