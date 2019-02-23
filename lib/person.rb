@@ -23,8 +23,8 @@ class Person
   end
   
   def hygiene=(n)
-    @hygiene += n
-    if n >= 10
+    
+    if @hygiene + n >= 10
       @hygiene = 10
     elsif @hygiene <= 0
       @hygiene = 0
