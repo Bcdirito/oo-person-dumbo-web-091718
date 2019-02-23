@@ -46,7 +46,6 @@ class Person
   end
   
   def take_bath
-    binding.pry
     @hygiene += 4
     binding.pry
     hygiene=(@hygiene)
