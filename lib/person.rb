@@ -58,6 +58,6 @@ class Person
   end
   
   def call_friend(friend)
-    
+    self.happiness += 3
   end
 end
