@@ -18,8 +18,6 @@ class Person
       @happiness = 10
     elsif n <= 0
       @happiness = 0
-    else
-      @happiness = n
     end
   end
   
