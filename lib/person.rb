@@ -38,4 +38,5 @@ class Person
   
   def clean?
     @hygiene > 7
+  end
 end
