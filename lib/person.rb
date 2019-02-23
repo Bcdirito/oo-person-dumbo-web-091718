@@ -12,14 +12,6 @@ class Person
     @hygiene = 8
   end
   
-  def happiness=(n)
-    checker(@happiness, n)
-  end
-  
-  def hygiene=(n)
-    checker(@hygiene, n)
-  end
-  
   def checker(att, num)
     if num >= 10
       att = 10
@@ -28,5 +20,13 @@ class Person
     else
       att = num
     end
+  end
+  
+  def happiness=(n)
+    checker(@happiness, n)
+  end
+  
+  def hygiene=(n)
+    checker(@hygiene, n)
   end
 end
