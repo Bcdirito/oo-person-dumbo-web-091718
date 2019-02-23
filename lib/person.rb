@@ -17,4 +17,5 @@ class Person
     else
       @happiness = n
     end
+  end
 end
