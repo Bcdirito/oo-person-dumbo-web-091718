@@ -23,7 +23,6 @@ class Person
   end
   
   def hygiene=(n)
-    binding.pry
     @hygiene += n
     if @hygiene >= 10
       @hygiene = 10
