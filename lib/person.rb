@@ -33,6 +33,6 @@ class Person
   end
   
   def happy?
-    @happy > 7
+    @happiness > 7
   end
 end
