@@ -9,6 +9,7 @@ class Person
     @name = name
     @bank_account = 25
     @happiness = 8
+    @hygiene = 8
   end
   
   def happiness=(n)
@@ -20,4 +21,5 @@ class Person
       @happiness = n
     end
   end
+  
 end
