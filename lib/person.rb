@@ -13,20 +13,22 @@ class Person
   end
   
   def happiness=(n)
-    @happiness += n
-    if @happiness >= 10
+    if n >= 10
       @happiness = 10
-    elsif @happiness <= 0
+    elsif n <= 0
       @happiness = 0
+    else
+      @happiness = n
     end
   end
   
   def hygiene=(n)
-    @hygiene += n
-    if @hygiene >= 10
+    if n >= 10
       @hygiene = 10
-    elsif @hygiene <= 0
+    elsif n <= 0
       @hygiene = 0
+    else
+      @hygiene = n
     end
   end
   
@@ -44,6 +46,7 @@ class Person
   end
   
   def take_bath
-    hygiene=(4)
+    @hygiene += 4
+    happiness
   end
 end
