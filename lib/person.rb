@@ -15,4 +15,5 @@ class Person
     if n >= 10
       @happiness = 10
     else
+      @happiness = ns
 end
