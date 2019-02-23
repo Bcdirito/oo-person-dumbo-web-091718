@@ -32,4 +32,7 @@ class Person
     end
   end
   
+  def happy?
+    @happy > 7
+  end
 end
