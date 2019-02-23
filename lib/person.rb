@@ -12,21 +12,20 @@ class Person
     @hygiene = 8
   end
   
-  def checker(att, num)
-    if num >= 10
-      att = 10
-    elsif num <= 0
-      att = 0
+  def happiness=(n)
+    if n >= 10
+      @happiness = 10
+    elsif n <= 0
+      @happiness = 0
     else
-      att = num
+      @happiness = n
     end
   end
   
-  def happiness=(n)
-    checker(@happiness, n)
+  def hygiene=(n)
+    if n >= 10
+      @hygiene = 10
+    elsif n <= 0
   end
   
-  def hygiene=(n)
-    checker(@hygiene, n)
-  end
 end
