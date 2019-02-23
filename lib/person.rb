@@ -11,5 +11,5 @@ class Person
     @happiness = 8
   end
   
-  
+  def happiness=(n)
 end
