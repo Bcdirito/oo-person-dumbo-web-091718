@@ -47,6 +47,6 @@ class Person
   
   def take_bath
     @hygiene += 4
-    happiness
+    if @hygiene > 10 @hygiene = 10
   end
 end
