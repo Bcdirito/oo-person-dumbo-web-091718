@@ -28,7 +28,7 @@ class Person
     elsif n <= 0
       @hygiene = 0
     else
-      @hygiene += n
+      @hygiene = n
     end
   end
   
