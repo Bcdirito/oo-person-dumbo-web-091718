@@ -29,8 +29,6 @@ class Person
       @hygiene = 10
     elsif @hygiene <= 0
       @hygiene = 0
-    else
-      @hygiene = n
     end
   end
   
