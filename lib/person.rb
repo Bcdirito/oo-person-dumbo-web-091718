@@ -29,6 +29,7 @@ class Person
       @hygiene = 0
     else
       @hygiene = n
+    end
   end
   
 end
