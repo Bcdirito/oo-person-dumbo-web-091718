@@ -50,5 +50,6 @@ class Person
     if @hygiene > 10
       @hygiene = 10
     end
+    return 
   end
 end
