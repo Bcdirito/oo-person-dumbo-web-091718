@@ -27,7 +27,7 @@ class Person
     binding.pry
     if @hygiene >= 10
       @hygiene = 10
-    elsif n <= 0
+    elsif @hygiene <= 0
       @hygiene = 0
     else
       @hygiene = n
