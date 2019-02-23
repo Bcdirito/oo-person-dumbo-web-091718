@@ -50,6 +50,6 @@ class Person
     if @hygiene > 10
       @hygiene = 10
     end
-    return 
+    return "♪ Rub-a-dub just relaxing in the tub ♫"
   end
 end
