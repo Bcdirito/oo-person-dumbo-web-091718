@@ -22,4 +22,7 @@ class Person
     end
   end
   
+  def hygiene=(n)
+    
+  end
 end
