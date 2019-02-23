@@ -28,11 +28,11 @@ class Person
   
   def checker(att, number)
     if n >= 10
-      @happiness = 10
+      att = 10
     elsif n <= 0
-      @happiness = 0
+      att = 0
     else
-      @happiness = n
+      att = n
     end
   end
 end
