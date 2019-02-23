@@ -52,4 +52,6 @@ class Person
   end
   
   def work_out
+    
+  end
 end
